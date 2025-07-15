@@ -1,0 +1,15 @@
+{
+  "build": {
+    "production": {
+      "node": "20.19.2",
+      "npm": "10.8.2",
+      "packageManager": "npm",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://your-api-url.com" // optional
+      }
+    }
+  },
+  "cli": {
+    "version": ">=3.0.0"
+  }
+}
